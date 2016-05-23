@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  width: 80%;
+  margin: 0 auto;
+  margin: 0 auto;
+}
+header {
+  text-align: center;
+  font-size: 2rem;
+  padding: 2rem 0;
+}
+.brand-logo {
+  border: 1px solid #666;
+  border-radius: 5px;
+  width: 50%;
+  float: left;
+  margin-right: 10%;
+}
+form {
+  float: left;
+  width: 40%;
+}
+input {
+  padding: 4px;
+  margin: 0 0 1rem 0;
+  font-size: .85rem;
+  border: 1px solid #000;
+  display: block;
+  width: 100%;
+  border-radius: 3px;
+}
+input[type=submit] {
+  width: 20%;
+  min-width: 3.2rem;
+  background-color: #e6e6e6;
+}
+footer {
+  text-align: center;
+  font-size: .8rem;
+  padding: 4rem 0;
+}
+
+
+.clearfix:after {
+   visibility: hidden;
+   display: block;
+   font-size: 0;
+   content: " ";
+   clear: both;
+   height: 0;
+ }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
